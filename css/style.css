@@ -1,18 +1,55 @@
 body {
-    background-color: rgb(70, 191, 202);
+    background-color: rgb(129, 204, 211);
     color: #472056
    font-family: "Georgia", serif;
 }
 
 h1 {
-    color: :aquamarine;
+    color: rgb(179, 168, 219);
     font-size: 40px;
 }
 
+h2 {
+    color: #8b6899;
+    font-size: 40px;
+}
+
+h3 {
+    
+    font-size: 20px;
+}
+
+p{
+    
+    line-height: 1.6;
+}
+
+
+section { /*ETIQUETA*/
+    background-color: rgb(128, 168, 199);
+}
 .seccion {
-    background-color: beige;
+    background-color: rgb(220, 234, 245);
 }
 
 #perfil {
-    background-color: antiquewhite;
+    background-color: rgb(197, 172, 197);
     }
+    
+
+header{
+        background-color: rgb(167, 194, 194);
+        color: #f4ecf7;;
+        text-align:center;
+}
+
+ header h1{
+       
+    color: rgb(179, 168, 219);
+}
+
+
+ header h2{
+       
+    color: #8b6899;
+}
