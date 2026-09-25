@@ -1,55 +1,189 @@
 body {
-    background-color: rgb(129, 204, 211);
-    color: #472056
-   font-family: "Georgia", serif;
-}
-
-h1 {
-    color: rgb(179, 168, 219);
-    font-size: 40px;
-}
-
-h2 {
-    color: #8b6899;
-    font-size: 40px;
-}
-
-h3 {
-    
-    font-size: 20px;
-}
-
-p{
-    
+    margin: 0;
+    background-color: #ed9aee3a;
+    color: #221f1eb9;
+    font-family:Georgia, serif;
     line-height: 1.6;
 }
+*{
 
-
-section { /*ETIQUETA*/
-    background-color: rgb(128, 168, 199);
-}
-.seccion {
-    background-color: rgb(220, 234, 245);
+    box-sizing: border-box;
 }
 
-#perfil {
-    background-color: rgb(197, 172, 197);
-    }
+h1{
+    color: #1f2937;
+    font-size: 40px;
+}
+/* ====================
+SECCIONES
+====================== */
+.section { /*ETIQUETA*/
+    background-color: rgb(207, 161, 208);
+    padding: 25px;
+    margin: 20px;
+    border: 1px solid rgb(159, 206, 207);
+    border-radius: 10px;
+}
+
+.seccion h2{  /*CLASE*/
+   margin-top: 0;
+}
+
+#perfil{ /*id (#)*/
+    background-color: #cc7689c4;
+}
+
+/* ==============
+TEXTOS
+================== */
+h1 {
+    color: rgb(16, 16, 16);
+    font-size: 40px;
+}
+h2 {
+    color: rgb(178, 123, 132);
+    font-size: 30px;
+}
+h3 {
+    color: rgb(103, 87, 89);
+    font-size: 25px;
+}
+p {
+    line-height: 1.6; /*SEPARACION- INTERLINEADO*/
+}
+
+/* ====================
+ENCABEZADO
+====================== */
+header {
+    background-color: rgba(195, 135, 165, 0.863);
+    color: white;
+    text-align: center;
+}
+header h1 {
+    color: rgb(118, 92, 97);
+}
+header h2{
+    color:rgb(162, 147, 149);
+}
+
+header img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid rgba(198, 115, 157, 0.863);;
+ }
+
+ a {
+    color:aquamarine;
+    text_decoration: none;
+   }
+
+   a:hover{
     
+    text_decoration: underline;
+   }
 
-header{
-        background-color: rgb(167, 194, 194);
-        color: #f4ecf7;;
-        text-align:center;
+
+   /* ====================
+LISTAS
+====================== */ 
+
+ul{
+    padding-left: 20px;
+     }
+     
+     li{
+    margin-bottom: 5px;
+     }
+
+     /* ====================
+FORMULARIO
+====================== */
+
+/* FORMULARIO */
+form {
+    margin-top: 20px;
 }
 
- header h1{
-       
-    color: rgb(179, 168, 219);
+form label {
+    display: block;
+    margin-bottom: 5px;
 }
 
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
 
- header h2{
-       
-    color: #8b6899;
+form button {
+    background-color: #1e40af;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #1d3a8a;
+}
+
+/* TABLAS */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: #a98fcf;  
+    color: #ffffff;
+}
+
+/* PROYECTOS */
+.educacion {
+    background-color: #fef3c7;  
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 1px solid #facc15;
+}
+
+.experiencia {
+    background-color: #fef3c7;  
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 1px solid #facc15;
+}
+
+.proyecto {
+    background-color: #e0f2fe;  
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 1px solid #93c5fd;
+}
+
+/* PIE DE PAGINA */
+footer {
+    background-color: #b388a9;  
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #cd9cd5; 
+    text-decoration: none;
 }
